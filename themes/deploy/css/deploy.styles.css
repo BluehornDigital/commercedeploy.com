@@ -1,0 +1,125 @@
+/* No files to import found in abstractions/**\/* */
+ul.breadcrumb {
+  padding: 0;
+}
+ul.breadcrumb li {
+  list-style: none;
+  display: inline-block;
+}
+
+img, media {
+  max-width: 100%;
+}
+
+html, body {
+  color: #141414;
+  font-family: "Lato", sans-serif;
+  font-size: 15px;
+  font-weight: 100;
+}
+
+a {
+  color: #4d4d4d;
+  text-decoration: none;
+}
+a:hover {
+  -webkit-transition-property: color;
+  -moz-transition-property: color;
+  -o-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.2s;
+  -moz-transition-duration: 0.2s;
+  -o-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  color: #5a5a5a;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Enriqueta", serif;
+  line-height: 1.45;
+  letter-spacing: 0.12px;
+}
+
+article p {
+  line-height: 1.45;
+}
+
+.front .panels-region--columns-wrapper p {
+  margin: 0;
+}
+.front .panels-region--column-one ul {
+  padding: 0 0 0 20px;
+}
+.front .panels-region--column-one ul li {
+  line-height: 25px;
+}
+.front .panels-region--column-three {
+  min-height: 100%;
+  background-image: url(../images/dark_wall.png);
+  color: #ededed;
+}
+.front .panels-region--column-three .button {
+  display: block;
+  padding: 10px 15px;
+  color: #ededed;
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.front .panels-region--column-three .button:before {
+  margin-right: 10px;
+}
+
+.l-header-wrapper {
+  background-image: url(../images/dark_wall.png);
+  padding-bottom: 20px;
+}
+
+.site-logo {
+  display: block;
+  padding: 0 10px;
+  text-align: center;
+}
+
+.page-name {
+  color: #f7f7f7;
+  font-size: 50px;
+  font-weight: 100;
+  line-height: 50px;
+}
+.page-name a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.l-navigation {
+  background-color: rgba(0, 0, 0, 0.15);
+  border-bottom: 1px solid #141414;
+}
+.l-navigation a {
+  color: #C2C2C2;
+  text-decoration: none;
+}
+
+@media (min-width: 740px) {
+  .l-navigation ul {
+    margin: 0;
+    padding: 0;
+  }
+  .l-navigation li {
+    display: inline-block;
+    margin: 0;
+    padding: 0 1%;
+  }
+  .l-navigation li a {
+    font-size: 13px;
+    line-height: 35px;
+  }
+  .l-navigation li a:hover {
+    color: white;
+  }
+  .l-navigation li:first-child a:before {
+    margin-right: 5px;
+    font-size: 15px;
+  }
+}

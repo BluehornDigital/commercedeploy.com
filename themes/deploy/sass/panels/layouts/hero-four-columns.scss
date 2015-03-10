@@ -1,0 +1,56 @@
+// Import external libraries.
+@import "compass";
+@import "breakpoint";
+@import "singularitygs";
+@import "toolkit-no-css";
+
+@import "../../variables/**/*";
+
+.panel-display--hero-four-column {
+  @include pie-clearfix;
+  .panels-region--columns-wrapper {
+    @include pie-clearfix;
+    clear: both;
+  }
+}
+
+@include breakpoint($tab, true) {
+  .panel-display--hero-four-column {
+    .panels-region--columns-wrapper__two,
+    .panels-region--columns-wrapper__four {
+      @include layout(4) {
+        .panels-region {
+          @include float-span(2);
+          &:last-child {
+            @include float-span(2, 'last');
+          }
+        }
+      }
+    }
+    .panels-region--columns-wrapper__three {
+      @include layout(9) {
+        .panels-region {
+          @include float-span(3);
+          &:last-child {
+            @include float-span(3, 'last');
+          }
+        }
+      }
+    }
+  }
+}
+
+@include breakpoint($desk, true) {
+  .panel-display--hero-four-column {
+    .panels-region--columns-wrapper__four {
+      @include layout(8) {
+        .panels-region {
+          @include float-span(2);
+          &:last-child {
+            @include float-span(2, 'last');
+          }
+        }
+      }
+    }
+  }
+}

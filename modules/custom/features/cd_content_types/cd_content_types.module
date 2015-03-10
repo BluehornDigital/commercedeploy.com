@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the CD Content Types feature.
+ */
+
+include_once 'cd_content_types.features.inc';

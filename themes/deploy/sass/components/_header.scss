@@ -1,0 +1,20 @@
+.l-header-wrapper {
+  background-image: url(../images/dark_wall.png);
+  padding-bottom: 20px;
+}
+
+.site-logo {
+  display: block;
+  padding: 0 10px;
+  text-align: center;
+}
+.page-name {
+  color: darken(white, 3%);
+  font-size: 50px;
+  font-weight: 100;
+  line-height: 50px;
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+}

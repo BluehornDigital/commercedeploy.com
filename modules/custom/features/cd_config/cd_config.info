@@ -1,0 +1,15 @@
+name = CD Config
+description = Dependencies and basic site configuration
+core = 7.x
+package = Features
+dependencies[] = cd_content_types
+dependencies[] = ctools
+dependencies[] = features
+dependencies[] = filter
+dependencies[] = markdown
+dependencies[] = strongarm
+features[ctools][] = strongarm:strongarm:1
+features[features_api][] = api:2
+features[filter][] = plain_text
+features[variable][] = features_default_export_path
+project path = sites/all/modules/custom/features

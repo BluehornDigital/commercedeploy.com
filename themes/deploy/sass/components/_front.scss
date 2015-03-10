@@ -1,0 +1,31 @@
+.front {
+  .panels-region--columns-wrapper {
+    p {
+      margin: 0;
+    }
+  }
+  .panels-region--column-one {
+    ul {
+      padding: 0 0 0 20px;
+      li {
+        line-height: 25px;
+      }
+    }
+  }
+  .panels-region--column-three {
+    min-height: 100%;
+    background-image: url(../images/dark_wall.png);
+    color: #ededed;
+    .button {
+      display: block;
+      padding: 10px 15px;
+      color: $white;
+      font-size: 20px;
+      text-transform: uppercase;
+      text-align: center;
+      &:before {
+        margin-right: 10px;
+      }
+    }
+  }
+}

@@ -1,0 +1,4 @@
+name = CD Affiliates
+description = Provides affiliates pane
+core = 7.x
+dependencies[] = panels

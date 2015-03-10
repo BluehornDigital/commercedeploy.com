@@ -1,0 +1,28 @@
+html, body {
+  color: #141414;
+  font-family: $sans-serif;
+  font-size: 15px;
+  font-weight: 100;
+}
+
+a {
+  color: #4d4d4d;
+  text-decoration: none;
+  &:hover {
+    @include transition-property(color);
+    @include transition-duration(0.2s);
+    color: lighten(#4d4d4d, 5%);
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $serif;
+  line-height: 1.45;
+  letter-spacing: 0.12px;
+}
+
+article {
+  p {
+    line-height: 1.45;
+  }
+}

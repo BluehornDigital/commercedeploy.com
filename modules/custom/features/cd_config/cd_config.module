@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the CD Config feature.
+ */
+
+include_once 'cd_config.features.inc';
